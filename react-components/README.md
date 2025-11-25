@@ -1,22 +1,45 @@
-##Övningsuppgift #6 - React-komponenter
-#Skapa upp tre komponenter: Header, Main, Footer
+## Övningsuppgift #6 – React-komponenter
 
-#Header:
+Skapa tre komponenter: **Header**, **Main**, **Footer**
 
-Returnera en <header>-tagg, som har en <h1> och en <h2>. Skapa variabler för ditt namn, din klass och namnet på din utbildning. Skriv ut namnet på din utbildning i h1:an, och ditt namn + klass i h2:an. Med CSS, ge din header en höjd på 200px och en ljusblå bakgrundsfärg.
+---
 
-#Main:
+### 🔵 Header
+Returnera en `<header>`-tagg som innehåller:
 
-Returnera en <main>-tagg och inuti den, skapa en topp 5 lista för valfritt ämne (t.ex mina topp 5 favoritfrukter, filmer, resedestinationer etc. ). Det ska vara en numrerad lista du ska använda dig av <li>-taggar.
+- `<h1>` → utbildningens namn  
+- `<h2>` → ditt namn + din klass  
 
-Extra: Skapa en array med din topp 5 lista och skriv ut det med en loop.
-Extra 2: Skapa en komponent för din topp 5 lista som tar in en array som props, och sedan loopar ut den.
-Med CSS, ge din div en höjd på 200px och en ljusgrön bakgrundsfärg.
+Skapa variabler i komponenten för:
 
-#Footer:
+- ditt namn  
+- din klass  
+- namnet på din utbildning  
 
-Returnera en <footer>-tagg, och i den ska det finnas texten: @Copyright . All rights reserved by Batman. Texten ska stå i en variabel.
+**CSS-krav:**
 
-Med CSS, ge texten en vit färg, och ge bakgrunden en svart färg. Höjd ska vara 100px.
+- Höjd: `200px`
+- Bakgrund: ljusblå
 
-#Rendera samtliga komponenter i App.js i rätt ordning.
+---
+
+### 🟢 Main
+Returnera en `<main>`-tagg och inuti den ska du:
+
+- skapa en **topp 5-lista** med `<li>`-taggar  
+  (valfritt ämne – frukter, filmer, resor osv.)
+
+**Extra:**
+
+1. Skapa en array med dina topp 5 och loopa ut dem.  
+2. Skapa en *egen komponent* som tar emot arrayen som props och loopar ut listan.
+
+**CSS-krav:**
+
+- Höjd: `200px`
+- Bakgrund: ljusgrön
+
+---
+
+### ⚫ Footer
+Returnera en `<footer>`-tagg och skriv ut texten från en variabel:
