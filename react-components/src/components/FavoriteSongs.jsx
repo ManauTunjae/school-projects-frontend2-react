@@ -1,10 +1,10 @@
 const FavoriteSongs = ({song}) => {
     return (
-        <div>
+        <div className='favoriteSongs'>
             <ul>
                 <li>{song}</li>
             </ul>
         </div>
-    )
-}
+    );
+};
 export default FavoriteSongs;

@@ -1,6 +1,7 @@
-import './App.css'
-import Header from './components/Header'
-import Main from './components/Main'
+import './App.css';
+import Header from './components/Header';
+import Main from './components/Main';
+import Footer from './components/Footer';
 
 function App() {
   
@@ -17,8 +18,9 @@ function App() {
       <h2>Exercise React Components</h2>
       {myInfo.map((info) => <Header info={info}/>)}
       <Main />
+      <Footer/>
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
