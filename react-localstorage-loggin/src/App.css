@@ -12,13 +12,49 @@
   color: black;
   font-size: 1.4rem;
   padding: 1rem;
-  border-radius: 0.5rem;
+  border-radius: 1rem;
   gap: 0.8rem;
 }
 
 .btnContainer {
-  width: 100px;
   gap: 2rem;
   font-size: 1rem;
-  padding: 0.2rem;
+  padding: 0.4rem;
+}
+
+.loggedInContainer {
+  background-color: antiquewhite;
+  color: black;
+  border-radius: 1rem;;
+}
+
+.loggedInContainer h2 {
+  font-size: 2rem;
+  font-style: bold;
+}
+
+.loggedOutBtn {
+  font-size: 1.5rem;
+  background-color: brown;
+}
+
+.loggedInContainer h3 {
+  background-color: rgba(212, 191, 73, 0.548);
+  margin-bottom: 0%;
+} 
+
+.todoListContainer {
+  background-color: rgba(212, 128, 73, 0.548);
+  margin-top: 0%;
+}
+
+.loggedInContainer input {
+  background-color: rgba(212, 191, 73, 0.548);
+  color: black;
+  border-radius: 0.5rem;;
+}
+
+.addTodoBtn {
+  background-color: rgba(0, 128, 0, 0.68);
+  font-size: 0.8rem;
 }

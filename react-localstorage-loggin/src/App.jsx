@@ -78,7 +78,7 @@ function App() {
       {!loggedInUser && (
         <div className="inputContainer">
           <label htmlFor="username">
-            <strong>UserName: </strong>
+            <strong>Username: </strong>
             <input
               type="text"
               id="username"
